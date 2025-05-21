@@ -76,7 +76,7 @@ class Autotune():
         self.y_beat = None
         self.pickle_path_shifted_vocal = "vocal_shifted.pickle"
         self.y_vocal_shifted = None  # 处理之后的人声
-        self.frame_length = 4096  # 帧长度
+        self.frame_length = 1024  # 帧长度
         self.fmin = librosa.note_to_hz("C2")
         self.fmax = librosa.note_to_hz("C7")
         # 定义基本音阶频率 (A4 = 440Hz)
